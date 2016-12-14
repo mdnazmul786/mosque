@@ -16,10 +16,22 @@ class Pages extends CI_Controller {
     public function index() {
 
         $prayername = array("Fajr", "Sunrise", "Dhuhr", "Asr", "Sunset", "Maghrib", "Isha");
+        $removeKeys = array('MosjidId', 'MosjidName', 'MosjidZone', 'MosjidSubDomain', 'IssueDate', 'PrayerId', 'PrayerZone', 'PrayerDate', 'PrayerModifyDate', 'ZoneId', 'ZoneName', 'ZoneCode', 'ZoneDate');
         $data = array();
 
         $data['prayersname'] = $prayername;
-        $data['all_prayers'] = $this->Prayers_Model->getall_prayerstime();
+
+        $allprayers = $this->Prayers_Model->getall_prayerstime();
+        $arrayprayers = json_decode(json_encode($allprayers), True);
+
+        foreach ($removeKeys as $key) {
+            unset($arrayprayers[$key]);
+        }
+        unset($arrayprayers['MosjidId']);
+        echo '<pre>';
+        print_r($arrayprayers);
+        die();
+        $data['all_prayers'] = $allprayers;
         $data['all_events'] = $this->Programs_Model->getall_events();
         $data['all_aboutus'] = $this->Community_Model->getall_aboutus();
         $data['sliders'] = $this->load->view('main/slider', '', TRUE);

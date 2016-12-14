@@ -1,0 +1,8 @@
+$(document).ready(function(){'use strict';if($("#main-slider").length){$("#main-slider").owlCarousel({navigation:true,slideSpeed:300,paginationSpeed:400,singleItem:true,pagination:false,});}
+if($("#home-event-slider").length){$("#home-event-slider").owlCarousel({navigation:true,slideSpeed:300,paginationSpeed:400,singleItem:true,pagination:false,});}
+if($('.defaultCountdown').length){var austDay=new Date();austDay=new Date(austDay.getFullYear()+ 2,1- 1,26);$('.defaultCountdown').countdown({until:austDay});$('#year').text(austDay.getFullYear());}
+if($('#map').length){$("#map").googleMap();$("#map").addMarker({coords:[48.895651,2.290569],title:'Event',text:'<b>Lorem ipsum</b> dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '});}
+if($('#map-event').length){$("#map-event").googleMap();$("#map-event").addMarker({coords:[48.895651,2.290569],title:'Event',text:'<b>Lorem ipsum</b> dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '});}
+if($('.gallery').length){$("area[data-rel^='prettyPhoto']").prettyPhoto();$(".gallery:first a[data-rel^='prettyPhoto']").prettyPhoto({animation_speed:'normal',theme:'light_square',slideshow:3000,autoplay_slideshow:false});$(".gallery:gt(0) a[data-rel^='prettyPhoto']").prettyPhoto({animation_speed:'fast',slideshow:10000,hideflash:true});}
+if($('#testi-slider').length){$("#testi-slider").owlCarousel({navigation:true,slideSpeed:300,paginationSpeed:400,singleItem:true,pagination:false,});}
+if($('#causes-testimonial-slider').length){$("#causes-testimonial-slider").owlCarousel({navigation:true,slideSpeed:300,paginationSpeed:400,singleItem:true,pagination:false,});}});

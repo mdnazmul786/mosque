@@ -1,0 +1,410 @@
+@media (max-width: 480px) {
+    .cp-mosque-header .cp-prayer-search li {
+        margin: 0 4px;
+    }
+    .section-title h2 {
+        font-size: 30px;
+    }
+    .home-video-full .text-box ul li {
+        margin-right: 7px;
+    }
+    .inner-header {
+        text-align: center;
+    }
+    .inner-header h1 {
+        font-size: 40px;
+        margin: 0 0 20px;
+    }
+    .inner-header .cp-breadcrumb {
+        width: 100%;
+    }
+    .inner-header .cp-breadcrumb li {
+        float: none;
+        display: inline-block;
+    }
+    .about-tabs .nav.nav-tabs {
+        width: 100%;
+    }
+    .about-tabs .tab-content {
+        width: 100%;
+    }
+    .team-member-box .frame {
+        width: 100%;
+    }
+    .team-member-box .text-box {
+        float: left;
+        width: 100%;
+        padding: 20px 0 0;
+    }
+    .countdown-amount {
+        font-size: 90%;
+    }
+    .home-events-slider .is-countdown .countdown-section {
+        width: 60px;
+        height: 60px;
+        background-size: cover;
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .cp-mosque-header {
+        position: relative;
+        top: 0;
+        background-color: #222;
+    }
+    .site-logo {
+        text-align: center;
+        margin: 0 0 20px;
+    }
+    .cp-prayer-search {
+        width: 100%;
+        text-align: center;
+    }
+    .cp-navbar .navbar-collapse {
+        padding: 0;
+    }
+    .cp-mosque-header .nav.navbar-nav {
+        float: left;
+        margin: 0;
+    }
+    .cp-mosque-header .nav.navbar-nav .caret {
+        margin-left: 5px;
+    }
+    .cp-mosque-header .navbar-nav>li {
+        display: block;
+        text-align: left;
+    }
+    .cp-mosque-header .navbar-default .navbar-nav>li>a {
+        padding-left: 5px;
+        padding-right: 0;
+    }
+    .cp-mosque-header .navbar-default .navbar-toggle {
+        margin-right: 0;
+    }
+    .cp-mosque-header .navbar-nav .open .dropdown-menu>li>a {
+        line-height: 30px;
+    }
+    .cp-masjid-img>img {
+        width: 100%;
+        height: auto;
+    }
+    .cp-main-slider .item .slider-caption {
+        display: none;
+    }
+    .cp-main-slider .owl-theme .owl-controls .owl-buttons div {
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+    .cp-main-slider .owl-controls .owl-prev::after,
+    .cp-main-slider .owl-controls .owl-next::after {
+        color: #222;
+        font-size: 16px;
+    }
+    .cp-welcome img {
+        width: 100%;
+        height: auto;
+    }
+    .cp-welcome-content {
+        padding: 20px;
+    }
+    .home-events-slider .frame,
+    .cp-event-list .cp-event-holder .frame {
+        width: 100%;
+    }
+    .home-events-slider .text-box {
+        width: 100%;
+        padding: 20px 0 0;
+    }
+    .home-events-slider .owl-theme .owl-controls .owl-buttons .owl-prev::after,
+    .home-events-slider .owl-theme .owl-controls .owl-buttons .owl-next::after {
+        color: #fff;
+    }
+    .home-video-full .text-box {
+        width: 100%;
+        padding: 50px 0;
+    }
+    .home-video-full .video-frame iframe {
+        min-height: 350px;
+    }
+    .home-blog .cp-blog-content {
+        margin-bottom: 30px;
+    }
+    .home-namaz-time .namaz {
+        margin-bottom: 30px;
+    }
+    .team-holder {
+        float: left;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .footer-widget {
+        width: 100%;
+        float: left;
+    }
+    .inner-header {
+        float: left;
+        width: 100%;
+        padding: 50px 0;
+        min-height: auto;
+    }
+    .cp-testimonial {
+        width: 100%;
+    }
+    .about-tabs .nav.nav-tabs li a {
+        font-size: 18px;
+    }
+    .causes-list-box .cf-share {
+        width: 100%;
+    }
+    .causes-list-box .frame {
+        width: 100%;
+    }
+    .causes-list-box .text-box {
+        float: left;
+        width: 100%;
+        padding: 10px 0;
+    }
+    .causes-grid ul {
+        text-align: center;
+    }
+    #wrapper .comment-form ul li {
+        width: 100%;
+    }
+    #wrapper .comment-form .review-star ul li {
+        width: auto;
+    }
+    .causes-details .detail-row ul {
+        width: 100%;
+    }
+    #wrapper .detail-row ul li {
+        padding-right: 4px;
+    }
+    .causes-details .detail-row ul li a {
+        padding: 0;
+    }
+    .search-widget input[type="submit"] {
+        padding: 0 12px;
+    }
+    .cp-event-list {
+        width: 100%;
+    }
+    .cp-event-list .cp-event-holder .frame {
+        width: 100%;
+    }
+    .cp-event-list .cp-event-holder .text-box {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .cp-pagination .pagination {
+        width: 100%;
+        margin: 0 0 20px;
+    }
+    .cp-shop-holder .frame {
+        width: 100%;
+    }
+    .cp-shop-list .cp-shop-holder .text-box {
+        width: 100%;
+        padding: 20px 0 0;
+    }
+    .inner-header h1 {
+        font-size: 50px;
+    }
+    .gallery-grid .g-frame {
+        margin-bottom: 20px;
+    }
+    .pagination-box .pagination {
+        text-align: center;
+    }
+    .donate-form ul li span {
+        width: 55px;
+        height: 55px;
+        line-height: 50px;
+    }
+    .donate-form-area ul li {
+        margin-left: 15px;
+    }
+    .donate-form-area .donate-box ul li {
+        margin: 0;
+    }
+    .news-hoolder .frame {
+        width: 100%;
+    }
+    .news-hoolder .text-box {
+        width: 100%;
+        padding: 20px 0 0;
+    }
+    #wrapper .detail-row ul li {
+        margin-bottom: 10px;
+    }
+    .team-member-box,
+    .team-box4,
+    .team-box2,
+    .other-members-box {
+        margin: 0 0 30px;
+    }
+    .testimonials-section .holder,
+    .causes-testimonials .holder {
+        width: 100%;
+        padding: 0 50px;
+        text-align: center;
+    }
+    .features-2-box {
+        margin-top: 100px;
+        padding: 0 30px 30px;
+    }
+    .pricing-box {
+        margin: 0 0 30px;
+    }
+    .home-events-slider .holder {
+        width: 100%;
+    }
+    .cp-masjid-img>img {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .cp-mosque-header {
+        position: relative;
+        top: 0;
+        background-color: #222;
+    }
+    .site-logo {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .cp-navbar .navbar-collapse {
+        padding: 0;
+    }
+    .cp-mosque-header .navbar-default .navbar-nav>li>a {
+        font-size: 13px;
+        padding: 10px 7px;
+    }
+    .cp-main-slider .item .slider-caption {
+        top: 5%;
+    }
+    .cp-main-slider .item .slider-caption h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .cp-main-slider .owl-theme .owl-controls .owl-buttons div {
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+    .cp-main-slider .owl-controls .owl-prev::after,
+    .cp-main-slider .owl-controls .owl-next::after {
+        color: #222;
+        font-size: 16px;
+    }
+    .home-blog .cp-blog-content {
+        margin-bottom: 30px;
+    }
+    .home-namaz-time .namaz {
+        margin-bottom: 30px;
+    }
+    .team-holder {
+        float: left;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .cp-welcome img {
+        width: 100%;
+        height: auto;
+        padding: 50px 100px 20px;
+    }
+    .home-video-full .text-box {
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    .footer-widget {
+        width: 100%;
+        float: left;
+    }
+    .causes-list-box .cf-share {
+        width: 50%;
+    }
+    #wrapper .comment-form ul li {
+        width: 100%;
+    }
+    .cp-event-list {
+        width: 100%;
+    }
+    .cp-event-list .cp-event-holder .frame {
+        width: 100%;
+    }
+    .cp-event-list .cp-event-holder .text-box {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .map-row .countdown-box {
+        margin-top: 20px;
+    }
+    .gallery-grid .g-frame {
+        margin-bottom: 20px;
+    }
+    .pagination-box .pagination {
+        text-align: center;
+    }
+    .donate-form-area ul li {
+        margin-left: 20px;
+    }
+    .inner-header {
+        float: left;
+        width: 100%;
+        min-height: auto;
+        padding: 80px 0;
+    }
+    .testimonials-section .holder,
+    .causes-testimonials .holder {
+        width: 100%;
+        padding: 0 50px;
+        text-align: center;
+    }
+    .pricing-box {
+        margin: 0 0 30px;
+    }
+    .features-2-box {
+        margin-top: 100px;
+        padding: 0 50px 30px;
+    }
+    .home-events-slider .text-box {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .home-events-slider .holder {
+        width: 100%;
+    }
+    .home-events-slider .text-box {
+        width: 100%;
+    }
+    .home-video-full .text-box {
+        padding: 30px 15px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .home-video-full .text-box {
+        width: 70%;
+        padding: 50px 30px 0;
+    }
+    .home-events-slider .frame,
+    .cp-event-list .cp-event-holder .frame {
+        width: 300px;
+    }
+    .cp-event-list .cp-event-holder .text-box {
+        width: 445px;
+        margin-top: 0;
+    }
+    .map-row .map-box {
+        width: 360px;
+    }
+    .map-row .countdown-box {
+        width: 400px;
+    }
+    .cp-mosque-header .navbar-default .nav>li>a {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .home-events-slider .text-box {
+        max-width: 560px;
+    }
+}
